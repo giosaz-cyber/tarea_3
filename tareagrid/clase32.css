@@ -1,0 +1,47 @@
+.cont{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas: "header     header     header    header     header"
+                         "nav        nav        nav       nav        nav"  
+                         "section1   section1   section2  section2   ads"
+                         "footer     footer     footer    footer     footer";
+}
+.cont .uno{
+    background-color: bisque;
+    grid-column: header;
+}
+.cont .dos{
+    background-color: yellow;
+    grid-column: nav;
+}
+.cont .tres{
+    background-color: azure;
+    grid-column: section1;
+}
+.cont .se2{
+    background-color: azure;
+    grid-column: section2;
+}
+.cont .cuatro{
+    background-color: chartreuse;
+    grid-column: ads;
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+}
+.cont .cinco{
+    background-color: brown;
+    grid-column: footer;
+}
+.hijos{
+    background-color: blue;
+    
+}
